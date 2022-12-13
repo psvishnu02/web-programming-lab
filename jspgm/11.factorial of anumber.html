@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="pink">
+<font color="red"><h3 align="center"><i>FACTORIAL OF A NUMBER</i></font></h3>
+<script>
+document.write("click on the button to get  factorial of a number:")
+function factorial(){
+let n=prompt("enter the number");
+document.write("factorial of the given number is:"+"<br/>")
+var fact=1;
+var b=n;
+while(n>1)
+{
+fact=fact*n;
+n=n-1;
+}
+document.write("The factorial of " + b + " is " +fact);
+}
+</script>
+<form>
+<input type="button" value="click" onclick="factorial()">
+</form>
+</body>
+</html>
