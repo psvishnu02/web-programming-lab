@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="green">
+<font color="red"><h3 align="center"><i>Fibonacci Sequence</i></font></h3>
+<script>
+document.write("click on the button to get fibonacci sequence upto a limit:")
+function fib()
+{
+let n=prompt("enter the limit");
+var f=0;
+var s=1;
+var i=2;
+var fib=0;
+if(n!=0)
+{
+document.write(f+"<br>");
+document.write(s+"<br>");
+while(i<n)
+{
+i=i+1;
+fib=f+s;
+f=s;
+s=fib;
+document.write(fib+"<br>");
+}
+}}
+
+</script>
+<form>
+<input type="button" value="click" onclick="fib()">
+</form>
+</body>
+</html>
