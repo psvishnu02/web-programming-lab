@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js functions&math object</title>
+</head>
+<body bgcolor="pink">
+<h1 align="center"><font color="red"><big><u><b>JAVSCRIPT PREDEFINED FUNCTION AND MATH OBJECTS</b></u></big></font></h1>
+<script>
+document.write("LENGTH FUNCTION"+"<br>");
+var txt="this is a text"+"<br>"
+var len = txt.length;
+document.write(txt);
+document.write("the length of the above text is:",len+"<br>"+"<br>");
+document.write("SLICE FUNCTION"+"<br>");
+var a="pick out a name from this sentence:RAM is running"+"<br>";
+var sl = a.slice(35,39);
+document.write(a);
+document.write("the name is:",sl+"<br>"+"<br>");
+document.write("SUBSTRING FUNCTION"+"<br>");
+var b="Apple, Banana, Kiwi";
+sub= b.substring(7, 13);
+document.write(b+"<br>");
+document.write("extracted part is:",sub+"<br>"+"<br>");
+document.write("REPLACE FUNCTION"+"<br>");
+var c="this text canot be replaced";
+newc = c.replace("canot","can");
+document.write(c+"<br>");
+document.write("replaced sentence is:",newc+"<br>"+"<br>");
+document.write("LOWERCASE FUNCTION"+"<br>");
+var e="HAPPY BIRTHDAY";
+newe =e.toLowerCase();
+document.write(e+"<br>");
+document.write("changed sentence is:",newe+"<br>"+"<br>");
+document.write("UPPERCASE FUNCTION"+"<br>");
+var d="welcome";
+newd = d.toUpperCase();
+document.write(d+"<br>");
+document.write("changed sentence is:",newd+"<br>"+"<br>");
+document.write("CONCAT FUNCTION"+"<br>");
+var f= "come";
+var g = "on";
+var newf=f.concat(" ",g);
+document.write(f+"<br>");
+document.write(g+"<br>");
+document.write("concatinated sentence is:",newf+"<br>"+"<br>");
+document.write("CHARACTER AT POSITION"+"<br>");
+var i="the sky is blue"
+var posi =i.charAt(8);
+document.write(i+"<br>");
+document.write("the character at position 7 is:",posi+"<br>"+"<br>");
+document.write("INDEXOF FUCTION"+"<br>");
+var j="this sentence is a demo sentence";
+var newj=j.indexOf("demo");
+document.write(j+"<br>");
+document.write("the index of the word is:",newj+"<br>"+"<br>");
+document.write("LASTINDEXOF FUCTION"+"<br>");
+var k="fresh air gives fresh energy";
+var newk=k.lastIndexOf("fresh");
+document.write(k+"<br>");
+document.write("the lastindex of the word is:",newk+"<br>"+"<br>"+"<br>");
+document.write("MATH FUNCTION"+"<br>");
+document.write("Consider The Number:365.4"+"<br>");
+var x=365.4;
+document.write("Square root of "+x+"= "+Math.sqrt(x)+"<br>");
+document.write("Cube of "+x+"= "+Math.pow(x,3)+"<br>");
+document.write("Absolute Value of "+x+"= "+Math.abs(x)+"<br>");
+document.write("Round "+x+"= "+Math.round(x)+"<br>");
+document.write("Ceil value of "+x+"= "+Math.ceil(x)+"<br>");
+document.write("Floor value of "+x+"= "+Math.floor(x)+"<br>");
+document.write("Value of PI= " +Math.PI+"<br>");
+document.write("Max value of 20,30,55= " +Math.max(20,30,55)+"<br>");
+document.write("Min value of 20,30,55= " +Math.min(20,30,55)+"<br>");
+</script>
+</body>
+</html>
