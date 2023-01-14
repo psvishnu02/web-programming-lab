@@ -1,0 +1,22 @@
+<html>
+<head><title>exp 8</title>
+</head>
+<h1 id="pic">clear sky</h1><br><br>
+<img id="img1" onmouseover="myfunction()" onmouseout="myfunction2()" src="clear.jpg">
+<p id="para"></p>
+
+<script>
+function myfunction()
+{
+document.getElementById("img1").src="rainy.jpg";
+document.getElementById("pic").innerHTML="rainy season";
+}
+
+function myfunction2()
+{
+document.getElementById("img1").src="clear.jpg";
+document.getElementById("pic").innerHTML="clear sky";
+}
+</script>
+</body>
+</html>
