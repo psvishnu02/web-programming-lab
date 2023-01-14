@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+function exam()
+{
+var m=0;
+if(document.examForm.one.value=="6")
+m=m+1;
+if(document.examForm.two.value=="b tag")
+m=m+1;
+if(document.examForm.three.value=="dl tag")
+m=m+1;
+if(document.examForm.four.value=="")
+m=m+1;
+alert("Thankyou  for taking the online exam \n Your score is:"+m+" out of 4");
+}
+</script>
+</head>
+<body bgcolor="tomato">
+<form name="examForm" onsubmit="return exam()" method="get">
+<h1 align="center"><b><u>ONLINE EXAMINATION</b></u></h1>
+Enter your full name:<input type="text"  id="name" name="name"/><br><br>
+Enter your register number:<input type="text" id="rno" name="reg"/><br><br>
+<p>
+<b>1) How many heading tags are there in HTML? </b><br>
+<input type="radio" name="one" value="2">2<br>
+<input type="radio" name="one" value="3">3<br>
+<input type="radio" name="one" value="5">5<br>
+<input type="radio" name="one" value="6">6<br>
+</p>
+<p>
+<b>2) Which element is used for making any text bold?</b><br>
+<input type="radio" name="two" value="p tag">p tag<br>
+<input type="radio" name="two" value="i tag">i tag<br>
+<input type="radio" name="two" value="b tag">b tag<br>
+<input type="radio" name="two" value="h tag">h tag<br>
+</p>
+<p>
+<b>3)which tag defines a description list?</b><br>
+<input type="radio" name="three" value="dl tag">dl tag<br>
+<input type="radio" name="three" value="dd tag">dd tag<br>
+<input type="radio" name="three" value="b tag">b tag<br>
+<input type="radio" name="three" value="h tag">h tag<br>
+</p>
+<p>
+<b>4)In HTML, the tags are __________?</b><br>
+<input type="radio" name="four" value="in lower case">in lower case<br>
+<input type="radio" name="four" value="in upper case">in upper case<br>
+<input type="radio" name="four" value="case sensitive">case sensitive<br>
+<input type="radio" name="four" value="not case sensitive">not case sensitive<br>
+</p>
+<center>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</center>
+</body>
+</html>
