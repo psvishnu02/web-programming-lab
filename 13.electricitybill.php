@@ -16,7 +16,7 @@ $units=$_POST["units"];
 echo"<h3> KSEB </h3>";
 echo"consumer id:".$id."<br>";
 echo"consumer name:".$name."<br>";
-echo"consumer id:".$units."<br>";
+echo"Unit consumed:".$units."<br>";
 if($units<100)
 {
 $amt=$units*3;
