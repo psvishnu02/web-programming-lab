@@ -6,9 +6,9 @@
 <h2>REGISTRATION FORM</h2>
 
 <form name="form" action=""  method="POST">
-username:<input type="text" name="name"></td><br><br>
-password:<input type="password" name="fps"></td><br><br>
-email:<input type="email" name="email"></td><br><br>
+username:<input type="text" name="name"><br><br>
+password:<input type="password" name="fps"><br><br>
+email:<input type="email" name="email"><br><br>
 Mobile number:<input type="number" name="pnum"><br><br>
 <input type="submit" value="Submit" name="submit">
 </form>
