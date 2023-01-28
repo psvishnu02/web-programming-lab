@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
 $arr=["rahul","aswin","john","balu"];
 $t=$arr;
@@ -16,3 +18,6 @@ echo "sorting using arsort() <br>";
 arsort($t);
 print_r($t);
 ?>
+</body>
+</html>
+
